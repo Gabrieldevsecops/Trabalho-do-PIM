@@ -33,3 +33,4 @@ gcc -o estoque login.c admin.c banco.c cliente.c gestor.c vendedor.c utils.c sql
 
 # Executar o programa
 ./estoque
+<img width="1570" height="816" alt="WhatsApp Image 2026-11-02 at 22 51 49" src="https://github.com/user-attachments/assets/b4cd30eb-3b07-44e6-a805-b3f5023b46bc" />
