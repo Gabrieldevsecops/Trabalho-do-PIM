@@ -1,11 +1,8 @@
 /*
- * banco.h
- *
- * Avisa quais funcoes do banco de dados existem (codigo no banco.c).
- *
- * "extern sqlite3 *banco" quer dizer: a variavel banco foi criada no
- * banco.c, mas todos os arquivos que incluirem este .h podem usar ela.
- */
+Avisa quais funcoes do banco de dados existem (codigo no banco.c).
+"extern sqlite3 *banco" quer dizer: a variavel banco foi criada no
+banco.c, mas todos os arquivos que incluirem este .h podem usar ela.
+*/
 
 #ifndef BANCO_H
 #define BANCO_H

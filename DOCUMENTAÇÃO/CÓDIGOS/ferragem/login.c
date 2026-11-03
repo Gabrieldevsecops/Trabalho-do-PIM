@@ -1,19 +1,16 @@
 /*
- * login.c  -  TELA PRINCIPAL (e onde o programa comeca)
- *
- * Este e o arquivo que tem o main(). Ele:
- *   1. abre o banco e deixa tudo preparado (admin, tabelas)
- *   2. mostra o menu principal:
- *        1 - Login (funcionarios)
- *        2 - Ver tabela de produtos (cliente, sem login)
- *   3. depois do login, chama a tela certa de acordo com o perfil:
- *        admin              -> tela_admin()      (admin.c)
- *        gestor             -> tela_gestor()     (gestor.c)
- *        vendedor           -> tela_vendedor()   (vendedor.c)
- *        cliente            -> tela_cliente()    (cliente.c)
- *
- * Quando a outra tela termina, o programa volta para este menu.
- */
+Aqui fica main(), ele:
+1. abre o banco e deixa tudo preparado (admin, tabelas)
+2. mostra o menu principal:
+ 1 - Login 
+ 2 - Ver tabela de produtos (cliente)
+3. depois do login, chama a tela certa de acordo com o perfil:
+-admin              -> (admin.c)
+-gestor             -> (gestor.c)
+-vendedor           -> (vendedor.c)
+-cliente            -> (cliente.c)
+-Quando a outra tela termina, o programa volta para este menu.
+*/
 
 #include <stdio.h>
 #include <string.h>
@@ -91,7 +88,7 @@ int main(void) {
     do {
         limpar_tela();
         printf("==========================================\n");
-        printf("       CASA DE FERRAGENS - ESTOQUE\n");
+        printf("       ConstruMais - ESTOQUE\n");
         printf("==========================================\n");
         printf(" 1 - Fazer login \n");
         printf(" 2 - Ver tabela de produtos (clientes)\n");

@@ -1,9 +1,7 @@
 /*
- * cliente.c
- *
- * Tela do cliente. Ele nao faz login, so consulta.
- * Ve apenas: nome do produto, quantidade e preco, em ordem alfabetica.
- */
+Tela do cliente. Ele nao faz login, so consulta.
+Ve apenas: nome do produto, quantidade e preco, em ordem alfabetica.
+*/
 
 #include <stdio.h>
 #include "banco.h"

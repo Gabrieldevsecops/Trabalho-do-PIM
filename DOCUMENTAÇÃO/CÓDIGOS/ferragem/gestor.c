@@ -1,16 +1,13 @@
 /*
- * gestor.c
- *
- * Tela do gestor. Ele tem tudo que o vendedor tem e mais duas coisas:
- *   1 - Ver tabela de itens      (funcao que ja existe no vendedor.c)
- *   2 - Editar tabela            (funcao que ja existe no vendedor.c)
- *   3 - Cadastrar produto novo
- *   4 - Remover produto
- *
- * Repare que as opcoes 1 e 2 NAO foram copiadas para ca: este arquivo
- * chama as funcoes do vendedor.c (por isso o #include "vendedor.h").
- * Um codigo chamando o outro.
- */
+Tela do gestor. Ele tem tudo que o vendedor tem e mais duas coisas:
+1 - Ver tabela de itens      (funcao que ja existe no vendedor.c)
+2 - Editar tabela            (funcao que ja existe no vendedor.c)
+3 - Cadastrar produto novo
+4 - Remover produto
+
+As opcoes 1 e 2 NAO foram copiadas para ca: este arquivo
+chama as funcoes do vendedor.c (por isso o #include "vendedor.h"), um codigo chamando o outro
+*/
 
 #include <stdio.h>
 #include <string.h>

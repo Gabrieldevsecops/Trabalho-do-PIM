@@ -1,13 +1,8 @@
 /*
- * vendedor.c
- *
- * Tela do vendedor (o gestor usa a mesma, pois tem os mesmos acessos).
- *
- * Menu:
- *   1 - Ver tabela de itens   (alem do que o cliente ve, mostra o ID,
- *                              o estoque minimo e um aviso de situacao)
- *   2 - Editar tabela         (mudar preco ou quantidade de um produto)
- */
+Tela do vendedor (o gestor usa a mesma, pois tem os mesmos acessos).
+1 - Ver tabela de itens (alem do que o cliente ve, mostra o ID, o estoque minimo e um aviso de situacao)
+2 - Editar tabela (mudar preco ou quantidade de um produto)
+*/
 
 #include <stdio.h>
 #include "banco.h"

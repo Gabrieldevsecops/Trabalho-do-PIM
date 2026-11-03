@@ -1,9 +1,6 @@
 /*
- * utils.c
- *
- * Funcoes pequenas que todas as telas usam (limpar tela, ler do teclado...).
- * Ficam aqui para nao repetir o mesmo codigo em cada arquivo.
- */
+Funcoes pequenas que todas as telas usam (limpar tela, ler do teclado, etc), ficam aqui para nao repetir o mesmo codigo em cada arquivo.
+*/
 
 #include <stdio.h>
 #include <stdlib.h>

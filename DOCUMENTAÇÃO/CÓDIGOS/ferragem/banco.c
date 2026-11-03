@@ -1,14 +1,11 @@
 /*
- * banco.c
- *
- * Tudo que prepara o banco de dados (arquivo estoque.db):
- *   - abre o banco (se o arquivo nao existir, o SQLite cria sozinho)
- *   - cria as tabelas de usuarios e de produtos
- *   - confere se o admin existe e cria se precisar
- *   - coloca alguns produtos de teste
- *
- * O estoque.db fica na mesma pasta do projeto.
- */
+Tudo que prepara o banco de dados (arquivo estoque.db):
+- abre o banco (se o arquivo nao existir, o SQLite cria sozinho)
+- cria as tabelas de usuarios e de produtos
+- confere se o admin existe e cria se precisar
+- coloca alguns produtos de teste
+O estoque.db fica na mesma pasta do projeto.
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
