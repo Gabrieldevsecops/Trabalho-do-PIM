@@ -1,7 +1,6 @@
 /*
- * vendedor.h
- * Avisa quais funcoes do vendedor.c podem ser usadas por outros arquivos.
- */
+Avisa quais funcoes do vendedor.c podem ser usadas por outros arquivos.
+*/
 
 #ifndef VENDEDOR_H
 #define VENDEDOR_H
